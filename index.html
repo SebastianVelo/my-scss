@@ -1,0 +1,73 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./index.css">
+
+    <title>Document</title>
+
+</head>
+
+<body>
+    <header class="main-header bg-red d-3">
+        <h1 class="main-header--title">Hola!</h1>
+    </header>
+    <nav class="bg-amber d-2">
+        <ul>
+            <li>Inicio</li>
+            <li>Nosotros</li>
+            <li>Contacto</li>
+        </ul>
+    </nav>
+    <header class="main-header bg-green l-3 txt-white">
+        <h1 class="main-header--title">Hola!</h1>
+        <nav class="main-header--nav ">
+            <ul>
+                <li>Inicio</li>
+                <li>Nosotros</li>
+                <li>Contacto</li>
+            </ul>
+        </nav>
+    </header>
+    <header class="main-header bg-blue l-3">
+        <h1 class="main-header--title">Hola!</h1>
+        <nav>
+            <ul>
+                <li>Inicio</li>
+                <li>Nosotros</li>
+                <li>Contacto</li>
+            </ul>
+        </nav>
+    </header>
+    <header class="main-header bg-indigo l-1 txt-green-l-4">
+        <h1 class="main-header--title">Responsive!</h1>
+        <div class="hamburger right hidden-m- hidden-l- hidden-xl-" onclick="document.querySelector('.hamburger').classList.toggle('active');document.querySelector('.sidenav').classList.toggle('active');">
+            <span class="line bg-green"></span>
+            <span class="line bg-green l-1"></span>
+            <span class="line bg-green d-2"></span>
+            <span class="line bg-green l-3"></span>
+        </div>
+        <nav class="main-header--nav hidden-s-">
+            <ul>
+                <li>Inicio</li>
+                <li>Nosotros</li>
+                <li>Contacto</li>
+            </ul>
+        </nav>
+        <nav class="sidenav half">
+            <ul>
+                <li>Inicio</li>
+                <li>Nosotros</li>
+                <li>Contacto</li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="bg-blue hoverable">
+        soy un panel
+    </div>
+</body>
+
+</html>
